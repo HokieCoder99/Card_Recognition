@@ -123,6 +123,7 @@ while cam_quit == 0:
     if key == ord("q"):
         cam_quit = 1
         # New function to update the running count based on card value
+#new code below written by Will Brown
 def update_running_count(card_value, running_count):
     if card_value in [2, 3, 4, 5, 6]:
         running_count += 1
