@@ -84,7 +84,7 @@ class VideoStream:
 
     def display_running_count(self, frame):
         """Draw the running count on the frame."""
-        cv2.putText(frame, f"Count: {self.running_count}", (50, 100),
+        cv2.putText(frame, f"Count: 0", (50, 100),
                     cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
         return frame
 
