@@ -126,11 +126,13 @@ while cam_quit == 0:
 def update_running_count(card_value, running_count):
     if card_value in [2, 3, 4, 5, 6]:
         running_count += 1
+    else if card_value in [10, J, Q, K, A]:
+        running_count -= 1
     return running_count
 
 # Modification in the card detection loop in `CardDetector.py` or appropriate place
 # Initialize running count
-running_count = +3
+running_count = +0
 
 # When a card is detected and its value is extracted
 running_count = update_running_count(card_value, running_count)
