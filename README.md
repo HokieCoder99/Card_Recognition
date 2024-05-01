@@ -1,6 +1,5 @@
-# OpenCV-Playing-Card-Detector
-Program derived from: https://github.com/EdjeElectronics/OpenCV-Playing-Card-Detector
-Personal Additions: Running count, logging previous cards, and GUI improvements
+# Card Recognition and Counting using Computer Vision
+Program derived from: https://github.com/EdjeElectronics/OpenCV-Playing-Card-Detector                                                                                                                            Will Brown's Additions: Running count, logging previous cards, and GUI improvements
 ## Usage
 Download this repository to a directory and run CardDetector.py from that directory. Cards need to be placed on a dark background for the detector to work. Press 'q' to end the program.
 
